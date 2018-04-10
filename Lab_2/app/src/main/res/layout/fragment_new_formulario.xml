@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewFormularioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="63dp" />
+
+        <TextView
+            android:id="@+id/textViewNuevoForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuevo Fomulario"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewNombreNuevoForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Fomulario:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextNombreForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            tools:text="Nombre" />
+
+        <TextView
+            android:id="@+id/textViewDateForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextDateNuevoForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categoria:"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCategoriaNuevoForm"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/textViewComentNuevoForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comentario:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextComentarioForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            tools:text="Comentario" />
+
+        <Button
+            android:id="@+id/buttonFromAceptar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AceptarNewForm"
+            android:text="Aceptar" />
+    </LinearLayout>
+
+</FrameLayout>

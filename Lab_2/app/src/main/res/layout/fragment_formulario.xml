@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ignap.lab_2.FormularioFragment"
+    android:id="@+id/formulario_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="62dp" />
+
+        <TextView
+            android:id="@+id/fragment_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre: Formulario 1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fragment_descripcion_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripcion: blablablablablablalblbalbabl. blablalba, ablalbalbalbalba"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fecha_formulario_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha:  Hoydia"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta1"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Respuesta1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregunta2"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Respuesta2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acepetar" />
+    </LinearLayout>
+
+</FrameLayout>
